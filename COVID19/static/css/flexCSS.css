@@ -1,0 +1,1065 @@
+body {
+    margin: 0;
+    background: #ffffff;
+}
+
+#title {
+    width: 100%;
+    height: 80px;
+    background: #dddddd;
+}
+
+#lefttitle {
+    float: left;
+    height: 80px;
+    top: 0;
+    left: 0;
+    color: black;
+    font-size: 30px;
+    display: inline-block;
+    justify-content: left;
+    line-height: 80px;
+    padding-left: 1%;
+}
+
+#middletitle {
+    float: left;
+    height: 80px;
+    top: 0;
+    left: 0;
+    color: red;
+    font-size: 22px;
+    display: inline-block;
+    justify-content: left;
+    line-height: 80px;
+    padding-left: 1%;
+    font-weight: 600;
+}
+
+#righttitle {
+    float: right;
+    height: 80px;
+    top: 0;
+    left: 0;
+    margin-right: 40px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+}
+
+a {
+    text-decoration: none;
+    float: right;
+    margin-left: 20px;
+    color: black;
+}
+
+a:hover, a:active {
+
+    color: #777777;
+
+}
+
+#leftinfomap {
+    float: left;
+    width: 50%;
+    height: 1250px;
+}
+
+#leftinfomap2 {
+    float: left;
+    width: 100%;
+    height: 860px;
+}
+
+#time {
+    float: left;
+    width: 60%;
+    height: 5%;
+    margin-left: 5%;
+    top: 5%;
+    color: #000000;
+    font-size: 16px;
+    line-height: 70px;
+}
+
+#left1number {
+    float: left;
+    width: 100%;
+    height: 25%;
+    top: 10%;
+    left: 30%;
+}
+
+.num {
+    width: 25%;
+    height: 45%;
+    float: left;
+    margin-top: 10px;
+}
+
+.numone {
+    float: left;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.numtwo {
+    float: left;
+    width: 100%;
+    height: 32%;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.numthree {
+    float: left;
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    font-weight: 500;
+
+}
+
+.xianyouquezhen {
+    color: #ff6a57;
+}
+
+.wuzhengzhuang {
+    color: #e86d48;
+}
+
+.xianyouyisi {
+    color: #ec9217;
+}
+
+.xianyouzhongzheng {
+    color: #545499;
+}
+
+.leijiquezhen {
+    color: #e83132;
+}
+
+.jingwaishuru {
+    color: #476da0;
+}
+
+.leijizhiyu {
+    color: #10aeb5;
+}
+
+.leijisiwang {
+    color: #4d5054;
+}
+
+#left1number2 {
+    float: left;
+    width: 100%;
+    height: 12%;
+    top: 10%;
+    left: 30%;
+}
+
+.num2 {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.numone2 {
+    float: left;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.numtwo2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.numthree2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    font-weight: 500;
+
+}
+
+.xianyouquezhen2 {
+    color: #ff6a57;
+}
+
+.leijiquezhen2 {
+    color: #e83132;
+}
+
+.leijizhiyu2 {
+    color: #10aeb5;
+}
+
+.leijisiwang2 {
+    color: #4d5054;
+}
+
+#chinaMap {
+    float: left;
+    margin-left: 5%;
+    width: 90%;
+    height: 60%;
+    top: 20px;
+}
+
+#chinaProvinceMap {
+    float: left;
+    width: 100%;
+    height: 60%;
+}
+
+#test {
+    float: right;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#rightchart {
+    float: left;
+    width: 48%;
+    height: 1250px;
+}
+
+#nationalTotal {
+
+    width: 80%;
+    margin-left: 10%;
+    height: 45%;
+    margin-top: 40px;
+}
+
+#dailyAdditionsNationwide {
+
+    width: 80%;
+    margin-left: 10%;
+    height: 45%;
+    margin-top: 40px;
+}
+
+#bottomchart {
+    float: left;
+    width: 100%;
+    height: 4000px;
+}
+
+#bottomchart0 {
+    float: left;
+    width: 100%;
+    height: 2600px;
+}
+
+#outbreakOut {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#dailyCasesNationwide {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#nationalCumulativeCureMortalityRate {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#urbanDataOfHubeiProvince {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#accumulativeDataExceptHubeiProvince {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#existingConfirmedTop20UrbanAreas {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#totalConfirmedTop20UrbanAreas {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#numberOfDeathsInCities {
+    float: left;
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#newCasesInTheTop10CountriesWithin24Hours {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#theTop10CountriesGrewFastestInSevenDays {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#hubeiNonHubeiNationalCumulativeData {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#hubeiNonHubeiNationalCureMortalityRate {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#hubeiNonHubeiNationalDailyNew {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#foreignCumulativeDiagnosisTop10Countries {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#theNumberOfForeignCountriesWithConfirmedCases {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#overseasCountriesWithMoreThan10000ConfirmedCases {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#overseasCountriesWithMoreThan10000HaveBeenConfirmedCases {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#globalCumulativeTrend {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+}
+
+#globalCumulativeCureMortality {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+}
+
+#totalNumberOfOverseasImportsFromTop10Provinces {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#existingDiagnosticClassificationInChina {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#eachProvinceComparesYesterdayData {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#detailedDataByProvince {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#currentConfirmedDataInAllProvinces {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#provincesWithFatalCasesNationwide {
+    float: left;
+    width: 21%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#cumulativeNumberOfConfirmedCasesInAllProvinces {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#wuhanNotWuhanNotHubeiNewlyConfirmed {
+    float: left;
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 600px;
+    margin-top: 70px;
+}
+
+#worldMapNoChina {
+    float: left;
+    width: 90%;
+    left: 5%;
+    height: 650px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        background: #ffffff;
+    }
+
+    #title {
+        width: 100%;
+        height: 40px;
+        background: #dddddd;
+    }
+
+    #lefttitle {
+        float: left;
+        width: 100%;
+        height: 40px;
+        top: 0;
+        left: 0;
+        color: black;
+        font-size: 1em;
+        display: inline-block;
+        justify-content: left;
+        text-align: center;
+        line-height: 40px;
+        padding-left: 0%;
+    }
+
+    #middletitle {
+        float: left;
+        width: 98%;
+        height: 30px;
+        top: 0;
+        left: 0;
+        margin-top: 10px;
+        margin-left: 2%;
+        color: red;
+        font-size: 1em;
+        display: inline-block;
+        justify-content: left;
+        line-height: 30px;
+        padding-left: 1%;
+        font-weight: 600;
+    }
+
+    #righttitle {
+        float: right;
+        width: 98%;
+        height: 30px;
+        top: 0;
+        left: 0;
+        margin-right: 10px;
+        display: inline-block;
+        color: white;
+        font-size: 0.9em;
+        line-height: 40px;
+    }
+
+    a {
+        text-decoration: none;
+        float: right;
+        margin-left: 20px;
+        color: black;
+    }
+
+    a:hover, a:active {
+
+        color: #777777;
+
+    }
+
+    #leftinfomap {
+        float: left;
+        width: 100%;
+        height: 900px;
+    }
+
+    #leftinfomap2 {
+        float: left;
+        width: 100%;
+        height: 600px;
+    }
+
+    #time {
+        float: left;
+        width: 100%;
+        height: 26px;
+        top: 5%;
+        margin-top: 10px;
+        margin-left: 0px;
+        color: #000000;
+        text-align: center;
+        font-size: 0.9em;
+        line-height: 26px;
+    }
+
+    #left1number {
+        float: left;
+        width: 100%;
+        height: 25%;
+        top: 10%;
+        left: 30%;
+        margin-top: 2%;
+    }
+
+    .num {
+        width: 25%;
+        height: 45%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .numone {
+        float: left;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        font-size: 0.9em;
+
+    }
+
+    .numtwo {
+        float: left;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1.5em;
+
+    }
+
+    .numthree {
+        float: left;
+        width: 100%;
+        height: 50%;
+        text-align: center;
+        font-size: 1.1em;
+        font-family: "微软雅黑";
+        font-weight: 500;
+
+    }
+
+    .xianyouquezhen {
+        color: #ff6a57;
+    }
+
+    .wuzhengzhuang {
+        color: #e86d48;
+    }
+
+    .xianyouyisi {
+        color: #ec9217;
+    }
+
+    .xianyouzhongzheng {
+        color: #545499;
+    }
+
+    .leijiquezhen {
+        color: #e83132;
+    }
+
+    .jingwaishuru {
+        color: #476da0;
+    }
+
+    .leijizhiyu {
+        color: #10aeb5;
+    }
+
+    .leijisiwang {
+        color: #4d5054;
+    }
+
+    #left1number2 {
+        float: left;
+        width: 100%;
+        height: 13%;
+        top: 10%;
+        left: 30%;
+    }
+
+    .num2 {
+        width: 25%;
+        height: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .numone2 {
+        float: left;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 0.4em;
+
+    }
+
+    .numtwo2 {
+        float: left;
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        font-size: 1.1em;
+
+    }
+
+    .numthree2 {
+        float: left;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 1em;
+        font-family: "微软雅黑";
+        font-weight: 500;
+
+    }
+
+    .xianyouquezhen2 {
+        color: #ff6a57;
+    }
+
+    .leijiquezhen2 {
+        color: #e83132;
+    }
+
+    .leijizhiyu2 {
+        color: #10aeb5;
+    }
+
+    .leijisiwang2 {
+        color: #4d5054;
+    }
+
+    #chinaMap {
+        float: left;
+        margin-left: 5%;
+        width: 90%;
+        height: 70%;
+        top: 20px;
+    }
+
+    #chinaProvinceMap {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        height: 70%;
+        top: 20px;
+    }
+
+    #test {
+        float: right;
+        font-family: "微软雅黑";
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    #rightchart {
+        float: left;
+        width: 100%;
+        height: 900px;
+    }
+
+    #nationalTotal {
+
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+        margin-top: 40px;
+    }
+
+    #dailyAdditionsNationwide {
+
+        width: 80%;
+        margin-left: 10%;
+        height: 400px;
+        margin-top: 40px;
+    }
+
+    #bottomchart {
+        float: left;
+        width: 100%;
+        height: 4000px;
+    }
+
+    #bottomchart0 {
+        float: left;
+        width: 100%;
+        height: 2600px;
+    }
+
+    #outbreakOut {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: -50px;
+    }
+
+    #dailyCasesNationwide {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    #nationalCumulativeCureMortalityRate {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    #urbanDataOfHubeiProvince {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #accumulativeDataExceptHubeiProvince {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #existingConfirmedTop20UrbanAreas {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #totalConfirmedTop20UrbanAreas {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #numberOfDeathsInCities {
+        float: left;
+        width: 42%;
+        margin-left: 4%;
+        margin-right: 4%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #newCasesInTheTop10CountriesWithin24Hours {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #theTop10CountriesGrewFastestInSevenDays {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #hubeiNonHubeiNationalCumulativeData {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #hubeiNonHubeiNationalCureMortalityRate {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #hubeiNonHubeiNationalDailyNew {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #foreignCumulativeDiagnosisTop10Countries {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #theNumberOfForeignCountriesWithConfirmedCases {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #overseasCountriesWithMoreThan10000ConfirmedCases {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #overseasCountriesWithMoreThan10000HaveBeenConfirmedCases {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #globalCumulativeTrend {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+    }
+
+    #globalCumulativeCureMortality {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #totalNumberOfOverseasImportsFromTop10Provinces {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 0px;
+    }
+
+    #existingDiagnosticClassificationInChina {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #eachProvinceComparesYesterdayData {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #detailedDataByProvince {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #currentConfirmedDataInAllProvinces {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #provincesWithFatalCasesNationwide {
+        float: left;
+        width: 42%;
+        margin-left: 4%;
+        margin-right: 4%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #cumulativeNumberOfConfirmedCasesInAllProvinces {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #wuhanNotWuhanNotHubeiNewlyConfirmed {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+        margin-top: 70px;
+    }
+
+    #worldMapNoChina {
+        float: left;
+        width: 90%;
+        left: 5%;
+        height: 550px;
+        margin-top: 30px;
+    }
+
+}
+

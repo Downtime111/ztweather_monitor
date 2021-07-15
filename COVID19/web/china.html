@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>疫情吹哨系统</title>
+    <script type="text/javascript" src="../static/js/tool/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="../static/js/tool/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/tool/echarts.min.js"></script>
+    <script type="text/javascript" src="../static/js/tool/china.js"></script>
+    <script type="text/javascript" src="../static/js/tool/echarts-wordcloud.min.js"></script>
+    <script type="text/javascript" src="../static/js/province/anhui.js"></script>
+    <script type="text/javascript" src="../static/js/province/aomen.js"></script>
+    <script type="text/javascript" src="../static/js/province/beijing.js"></script>
+    <script type="text/javascript" src="../static/js/province/chongqing.js"></script>
+    <script type="text/javascript" src="../static/js/province/fujian.js"></script>
+    <script type="text/javascript" src="../static/js/province/gansu.js"></script>
+    <script type="text/javascript" src="../static/js/province/guangdong.js"></script>
+    <script type="text/javascript" src="../static/js/province/guangxi.js"></script>
+    <script type="text/javascript" src="../static/js/province/guizhou.js"></script>
+    <script type="text/javascript" src="../static/js/province/hainan.js"></script>
+    <script type="text/javascript" src="../static/js/province/hebei.js"></script>
+    <script type="text/javascript" src="../static/js/province/heilongjiang.js"></script>
+    <script type="text/javascript" src="../static/js/province/henan.js"></script>
+    <script type="text/javascript" src="../static/js/province/hubei.js"></script>
+    <script type="text/javascript" src="../static/js/province/hunan.js"></script>
+    <script type="text/javascript" src="../static/js/province/jiangsu.js"></script>
+    <script type="text/javascript" src="../static/js/province/jiangxi.js"></script>
+    <script type="text/javascript" src="../static/js/province/jilin.js"></script>
+    <script type="text/javascript" src="../static/js/province/liaoning.js"></script>
+    <script type="text/javascript" src="../static/js/province/neimenggu.js"></script>
+    <script type="text/javascript" src="../static/js/province/ningxia.js"></script>
+    <script type="text/javascript" src="../static/js/province/qinghai.js"></script>
+    <script type="text/javascript" src="../static/js/province/shandong.js"></script>
+    <script type="text/javascript" src="../static/js/province/shanghai.js"></script>
+    <script type="text/javascript" src="../static/js/province/shanxi.js"></script>
+    <script type="text/javascript" src="../static/js/province/shanxi1.js"></script>
+    <script type="text/javascript" src="../static/js/province/sichuan.js"></script>
+    <script type="text/javascript" src="../static/js/province/taiwan.js"></script>
+    <script type="text/javascript" src="../static/js/province/tianjin.js"></script>
+    <script type="text/javascript" src="../static/js/province/xianggang.js"></script>
+    <script type="text/javascript" src="../static/js/province/xinjiang.js"></script>
+    <script type="text/javascript" src="../static/js/province/xizang.js"></script>
+    <script type="text/javascript" src="../static/js/province/yunnan.js"></script>
+    <script type="text/javascript" src="../static/js/province/zhejiang.js"></script>
+    <script type="text/javascript" src="../static/js/themes/macarons.js"></script>
+    <script type="text/javascript" src="../static/js/themes/roma.js"></script>
+    <script type="text/javascript" src="../static/js/themes/walden.js"></script>
+    <script type="text/javascript" src="../static/js/themes/westeros.js"></script>
+    <link rel="stylesheet" href="../static/css/flexCSS.css"/>
+</head>
+<body>
+<div id="gyroContain">
+    <div id="title">
+        <div id="lefttitle">疫情吹哨系统-国内疫情实时追踪</div>
+        <div id="middletitle">铭记：每个数字都是鲜活的生命!</div>
+        <div id="righttitle">
+            <a id="blog" href="https://zhanqingheng.com" target="_self">个人博客</a>
+            <a id="aworld" href="world" target="_self">切换到国外疫情</a>
+        </div>
+    </div>
+    <div id="leftinfomap">
+        <div id="time"></div>
+        <div id="left1number">
+            <div class="num">
+                <div class="numone">较昨日<span class="xianyouquezhen"></span></div>
+                <div class="numtwo xianyouquezhen"></div>
+                <div class="numthree txt">现有确诊</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="wuzhengzhuang"></span></div>
+                <div class="numtwo wuzhengzhuang"></div>
+                <div class="numthree txt">无症状</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="xianyouyisi"></span></div>
+                <div class="numtwo xianyouyisi"></div>
+                <div class="numthree txt">现有疑似</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="xianyouzhongzheng"></span></div>
+                <div class="numtwo xianyouzhongzheng"></div>
+                <div class="numthree txt">现有重症</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="jingwaishuru"></span></div>
+                <div class="numtwo jingwaishuru"></div>
+                <div class="numthree txt">境外输入</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="leijiquezhen"></span></div>
+                <div class="numtwo leijiquezhen"></div>
+                <div class="numthree txt">累计确诊</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="leijizhiyu"></span></div>
+                <div class="numtwo leijizhiyu"></div>
+                <div class="numthree txt">累计治愈</div>
+            </div>
+            <div class="num">
+                <div class="numone">较昨日<span class="leijisiwang"></span></div>
+                <div class="numtwo leijisiwang"></div>
+                <div class="numthree txt">累计死亡</div>
+            </div>
+        </div>
+        <div id="chinaMap"></div>
+        <div id="test">点此返回全国确诊地图</div>
+        <div id="chinaProvinceMap" style=""></div>
+    </div>
+    <div id="rightchart">
+        <div id="nationalTotal"></div>
+        <div id="dailyAdditionsNationwide"></div>
+    </div>
+    <div id="bottomchart">
+        <div id="dailyCasesNationwide"></div>
+        <div id="nationalCumulativeCureMortalityRate"></div>
+        <div id="detailedDataByProvince"></div>
+        <div id="cumulativeNumberOfConfirmedCasesInAllProvinces"></div>
+        <div id="currentConfirmedDataInAllProvinces"></div>
+        <div id="existingDiagnosticClassificationInChina"></div>
+        <div id="totalNumberOfOverseasImportsFromTop10Provinces"></div>
+        <div id="eachProvinceComparesYesterdayData"></div>
+        <div id="hubeiNonHubeiNationalCumulativeData"></div>
+        <div id="hubeiNonHubeiNationalCureMortalityRate"></div>
+        <div id="hubeiNonHubeiNationalDailyNew"></div>
+        <div id="wuhanNotWuhanNotHubeiNewlyConfirmed"></div>
+        <div id="totalConfirmedTop20UrbanAreas"></div>
+        <div id="existingConfirmedTop20UrbanAreas"></div>
+        <div id="urbanDataOfHubeiProvince"></div>
+        <div id="accumulativeDataExceptHubeiProvince"></div>
+        <div id="provincesWithFatalCasesNationwide"></div>
+        <div id="numberOfDeathsInCities"></div>
+        <div id="outbreakOut"></div>
+    </div>
+</div>
+<script src="../static/js/ECharts/ec_chinaMap.js"></script>
+<script src="../static/js/ECharts/ec_nationalTotal.js"></script>
+<script src="../static/js/ECharts/ec_dailyAdditionsNationwide.js"></script>
+<script src="../static/js/ECharts/ec_dailyCasesNationwide.js"></script>
+<script src="../static/js/ECharts/ec_nationalCumulativeCureMortalityRate.js"></script>
+<script src="../static/js/ECharts/ec_detailedDataByProvince.js"></script>
+<script src="../static/js/ECharts/ec_cumulativeNumberOfConfirmedCasesInAllProvinces.js"></script>
+<script src="../static/js/ECharts/ec_currentConfirmedDataInAllProvinces.js"></script>
+<script src="../static/js/ECharts/ec_existingDiagnosticClassificationInChina.js"></script>
+<script src="../static/js/ECharts/ec_totalNumberOfOverseasImportsFromTop10Provinces.js"></script>
+<script src="../static/js/ECharts/ec_eachProvinceComparesYesterdayData.js"></script>
+<script src="../static/js/ECharts/ec_hubeiNonHubeiNationalCumulativeData.js"></script>
+<script src="../static/js/ECharts/ec_hubeiNonHubeiNationalCureMortalityRate.js"></script>
+<script src="../static/js/ECharts/ec_hubeiNonHubeiNationalDailyNew.js"></script>
+<script src="../static/js/ECharts/ec_wuhanNotWuhanNotHubeiNewlyConfirmed.js"></script>
+<script src="../static/js/ECharts/ec_totalConfirmedTop20UrbanAreas.js"></script>
+<script src="../static/js/ECharts/ec_existingConfirmedTop20UrbanAreas.js"></script>
+<script src="../static/js/ECharts/ec_urbanDataOfHubeiProvince.js"></script>
+<script src="../static/js/ECharts/ec_accumulativeDataExceptHubeiProvince.js"></script>
+<script src="../static/js/ECharts/ec_provincesWithFatalCasesNationwide.js"></script>
+<script src="../static/js/ECharts/ec_numberOfDeathsInCities.js"></script>
+<script src="../static/js/ECharts/ec_outbreakOut.js"></script>
+<script src="../static/js/AJAX/chinaController.js"></script>
+</body>
+</html>
