@@ -10,6 +10,7 @@ import ctypes
 
 
 #11111
+#2222
 
 class SerThread:
     def __init__(self, Port, Baud):
