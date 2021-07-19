@@ -8,10 +8,6 @@ import os
 import ctypes
 
 
-
-#11111
-#2222
-
 class SerThread:
     def __init__(self, Port, Baud):
         # 初始化串口、blog文件名称
