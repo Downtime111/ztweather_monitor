@@ -146,7 +146,7 @@ class SerThread:
 
     def Get_currTime(self):
         currtime = datetime.datetime.now()
-        ##curr_date = currtime.strftime("%Y-%m-%d")
+        ###curr_date = currtime.strftime("%Y-%m-%d")
         #curr_time = currtime.strftime("%H:%M:%S")
         #RTC = str(curr_date + " " + curr_time)
         # print("当前时间："+RTC)
